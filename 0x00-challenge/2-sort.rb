@@ -22,6 +22,7 @@ ARGV.each do |arg|
         else
             result.insert(i - 1, i_arg)
             is_inserted = true
+            i = 0
             break
         end
     end
